@@ -510,6 +510,26 @@ input::placeholder {
   color: white;
 }
 
+@media screen and (max-width: 856px) {
+  .into {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    top: 0;
+    transform: translateY(0%);
+    position: relative;
+    width: 80%;
+  }
+
+  .into-text {
+    max-width: 90%;
+  }
+
+  .into {
+    width: 80%;
+  }
+
+}
+
 @media screen and (max-width: 688px) {
   .into {
     margin-top: 20px;
@@ -528,17 +548,3 @@ input::placeholder {
   }
 }
 
-@media screen and (max-width: 856px) {
-  .into {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    top: 0;
-    transform: translateY(0%);
-    position: relative;
-    width: 80%;
-  }
-
-  .into-text {
-    max-width: 90%;
-  }
-}
