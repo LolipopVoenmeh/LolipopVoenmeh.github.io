@@ -548,3 +548,72 @@ input::placeholder {
   }
 }
 
+/* article page */
+.article {
+  display: flex;
+  justify-content: center;
+}
+
+.article-body {
+  margin-top: 30px;
+  text-align: justify;
+  background: rgba(15, 15, 15, 0.7);
+  display: flex;
+  justify-content: center;
+}
+
+.article-img {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.article-header {
+  font-size: 35px;
+  text-align: center;
+  margin: 40px 0 25px;
+}
+
+.article-text {
+  font-size: 23px;
+  line-height: 32px;
+  max-width: 80%;
+  margin: auto auto 50px;
+}
+
+@media screen and (max-width: 4000px) {
+  .article-body {
+    max-width: 1192px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .article-body {
+    max-width: 862px;
+  }
+
+  .article-img {
+    width: 90%;
+  }
+
+  .article-text {
+    max-width: 90%;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .article-body {
+    width: 100%;
+  }
+
+  .article-img {
+    width: 95%;
+  }
+
+  .article-text {
+    max-width: 95%;
+  }
+}
